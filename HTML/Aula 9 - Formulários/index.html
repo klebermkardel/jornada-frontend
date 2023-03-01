@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <p>Usados para enviar informações para uma determinada funcionalidade do sistema.</p>
+
+    <p>Com eles temos várias possibilidades de comunicação.</p>
+
+    <p>Podemos enviar informações para o Back End, submeter dados e salvar no localStorage, entre outros.</p>
+
+    <p>Representado pela tag <strong>form</strong></p>
+
+    <p>Nunca usamos apenas a tag <strong>form</strong>, junto a ela temos outras como:</p>
+
+    <ul>
+        <li>input</li>
+        <li>textarea</li>
+        <li>button</li>
+        <li>select</li>
+        <li>fieldset</li>
+        <li>label</li>
+        <li>...</li>
+    </ul>
+
+    <p>Formas de uso:</p>
+
+    <p><strong>< form ></strong> -> formulário com tipo de envio <br><strong> < label for="nome" >Nome:< /label ></strong> -> Título <br><strong>< input type="text" id="nome" ></strong> -> Campo<br> <strong>< /form ></strong> -> fim do formulário</p>
+
+    <p><strong>Veja abaixo um tipo de formulário de cadastro, por exemplo:</strong></p>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email"><br>
+        <label for="telefone">Telefone:</label>
+        <input type="number" id="telefone"><br>
+        <button>Enviar</button>
+    </form>
+
+    <p>Obs: claramente o mesmo não está devidamente formatado, mas ao utilizar alguns atributos e estilização com CSS você verá como ficará melhor apresentado.</p>
+</body>
+</html>
