@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS - Seletores</title>
+    <style>
+        article {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        .content {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .container {
+            background: red;
+        }
+
+        #texto-1 {
+            color: #fff;
+        }
+
+        #texto-2 {
+            color: rgb(216, 214, 211);
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <section class="container">
+            <p id="texto-1">
+                Aqui é um Novo Texto 1.
+            </p>
+        </section>
+
+        <section class="container">
+            <p id="texto-2">
+                Aqui é um Novo Texto 2.
+            </p>
+        </section>
+    </article>
+
+    <article class="content">
+        <p>No exemplo acima foram criados um article e dentro dele duas sections com a classe container e em cada section um parágrafo com id texto-1 e texto-2 respecticamente para que possamos identificar como são utilizados os principais seletores utilizados no CSS que são nome da tag, class e id. </p>
+
+        <p>Definimos através do seletor "nome da tag" que o article teria uma largura de 200px e margin 0 auto para centralizar o conteúdo horizontalmente na tela. E definimos também que as sections com class ",container" teriam um background vermelho e por último foram definidos que o parágrafo de id "#texto-1" teria a cor de texto branca e o de id "texto-2 uma cor um pouco mais escura com padding de 30px". </p>
+
+        Dessa forma pudemos observar como funcionam os seletores e como devemos utilizá-los ao decorrer do código.
+
+        <p>Dessa forma pudemos observar como funcionam os seletores e como devemos utilizá-los ao decorrer do código.</p>
+    </article>
+</body>
+</html>
